@@ -22,5 +22,13 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php .composer/init.php"
+        ],
+        "post-install-cmd": [
+            "php .composer/init.php"
+        ]
     }
 }
