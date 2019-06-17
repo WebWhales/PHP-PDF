@@ -1,3 +1,8 @@
 /.idea
 /vendor
+
+#
+# Not including the lock file, to enable updates of used dependencies
+#
 /composer.lock
+

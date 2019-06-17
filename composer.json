@@ -24,10 +24,13 @@
         "sort-packages": true
     },
     "scripts": {
-        "post-update-cmd": [
+        "post-package-install": [
             "php .composer/init.php"
         ],
         "post-install-cmd": [
+            "php .composer/init.php"
+        ],
+        "init": [
             "php .composer/init.php"
         ]
     }
